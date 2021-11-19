@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family:cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(-45deg, crimson, pink, lime, violet);
+  height: 100vh
+}
+
+
+.choose {
+  width: 50%;
+  background: white;
+  text-align: center;
+  border: solid;
+  border-width: 0px;
+  border-radius: 0.8rem;
+  height: 25rem;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+}
+
+.chooseoption {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.chooseoption button {
+  margin: auto 2rem;
+  padding: 2rem;
+  cursor: pointer;
+  border-width: 0px;
+  background: linear-gradient(-45deg, crimson, pink, lime, violet);
+  font-weight: bold;
+  border-radius: 1rem;
+  color: white;
+  font-size: 16px;
+}
+
+
+.game {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background: white;
+}
+
+.board {
+  display: flex;
+  width: 100%;
+}
+
+.ticbtn {
+  padding: 3rem;
+}
+
+.tictac {
+  flex: 1;
+}
+
+.shoppingcart {
+  flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: crimson;
+}
+
+.brandlink {
+  display: flex;
+}
+
+.brandlink li {
+  list-style: none;
+  margin: 0rem 3rem;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 1.6rem;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.Main {
+  flex: 2;
+  background: white;
+  border-radius: 1.5rem;
+  margin: 0rem 2rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.basket {
+  flex: 1;
+  background: white;
+  border-radius: 1.5rem;
+  margin: 0rem 1rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.product img {
+  max-height: 8rem;
+}
+
+.productdisplay {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  font-size: 14px;
+  background: linear-gradient(-45deg, crimson, pink, lime, violet);
+  cursor: pointer;
+
+
+}
+
+.cartrow {
+  display: flex;
+  justify-content: space-around;
+  width: 100%
+}
+
+.cartrow div {
+  width: 33.3%;
+}
+
+.add {
+  background: yellow;
+}
+
+.remove {
+  background: red;
+}
+
+.btn1 button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  font-size: 14px;
+  background: linear-gradient(-45deg, crimson, pink, lime, violet);
+  cursor: pointer;
+}
+
+@media(min-width: 375px){
+  .row {
+    flex-wrap: wrap;
+  }
+  .Main {
+    flex: 1;
+  
+  }
+
+  .basket {
+    flex: 1;
+    
+  }
+}
+
+
+@media(min-width: 1024px){
+  .row {
+    flex-wrap: nowrap;
+  }
+
+  
+}
